@@ -28,7 +28,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JAVA11_TRANNHATVINH_ENDPROJECT" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BMApp" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -65,6 +65,15 @@
       <workItem from="1585535448886" duration="720000" />
       <workItem from="1585625611689" duration="22000" />
       <workItem from="1585665835041" duration="891000" />
+      <workItem from="1585667709299" duration="11000" />
+      <workItem from="1585729763694" duration="4457000" />
+      <workItem from="1585735724111" duration="3234000" />
+      <workItem from="1585748273418" duration="5430000" />
+      <workItem from="1585800070927" duration="670000" />
+      <workItem from="1585831135308" duration="5589000" />
+      <workItem from="1585837209577" duration="361000" />
+      <workItem from="1585906936818" duration="16000" />
+      <workItem from="1585922550297" duration="2912000" />
     </task>
     <servers />
   </component>
@@ -76,13 +85,17 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1585367476367" />
-    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1585625631402">
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1585906950146">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1585625631402" />
-    <state x="465" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1585625611675">
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1585906950146" />
+    <state x="465" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1585906935952">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="465" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1585625611675" />
+    <state x="465" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1585906935952" />
+    <state x="425" y="197" key="run.anything.popup" timestamp="1585834937533">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1585834937533" />
   </component>
 </project>

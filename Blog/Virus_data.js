@@ -22,6 +22,8 @@ $(document).ready(function(){
         url: 'https://ncovi.huynhhieu.com/api.php?code=external&fbclid=IwAR3JhX26KhvZmG3rUECy8UPfgkH0snH2EArpNdXXkNucXDLAPIQj1DbmaEk',
         success: function(data)
         {
+
+            //Globe data
             var result = JSON.parse(data);
             var virus_data = '';
             $.each(result.data, function (key, value) {
@@ -31,6 +33,7 @@ $(document).ready(function(){
                 virus_data += '<td> '+value.deaths+' </td>';
                 virus_data += '<td> '+value.recovered+' </td>';
 
+                //VietNam data
                 if(value.country == 'Vietnam')
                 {
                     cou = value.cases;

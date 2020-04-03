@@ -1,4 +1,3 @@
-// headers.append('Access-Control-Allow-Origin', '*');
 $.getJSON("https://corona.lmao.ninja/all", function (corona)
 {
     $.each(corona, function (key, value) {
