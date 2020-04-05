@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin chi tiết</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/
+jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+    <script src="https://maxcdn.bootsrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="virus_Data_globe.js"></script>
+    <script src="Search.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="container">
+<h3 style="text-align: center; color: white; background-color: red">-- Thông tin chi tiết các nước --</h3></br>
+<div id="tables">
+    <h5 style="color: white     ; text-align: center">-- Tìm kiếm tên nước:
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Tên nước..." title="Ghi tên nước vào"> --
+    </h5>
+    <table id="virus" class="table table-striped table-bordered" style="width:90%">
+        <tr class="">
+            <th style="color: black">Tên nước</th>
+            <th style="color: steelblue">Số ca nhiễm</th>
+            <th style="color: red">Số người chết</th>
+            <th style="color: green">Số người phục hồi</th>
+        </tr>
+    </table>
+</div>
+</div>
+</body>
+</html>
