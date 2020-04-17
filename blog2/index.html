@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,13 +10,26 @@
 jquery/3.1.0/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
     <script src="https://maxcdn.bootsrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="JS/Virus_data.js"></script>
     <script src="JS/Search.js"></script>
     <script src="JS/Chart.js"></script>
     <link rel="stylesheet" type="text/css" href="CSS-SCSS/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
+<body onload="myFunction1()">
+<!--<nav class="navbar navbar-inverse navbar-fixed-top">-->
+<!--    <div class="container-fluid">-->
+<!--        <div class="navbar-header">-->
+<!--            <a class="navbar-brand" href="#">Corona-Virus</a>-->
+<!--        </div>-->
+<!--        <ul class="nav navbar-nav">-->
+<!--            <li class="active"><a href="index.html">Home</a></li>-->
+<!--            <li><a href="Music.html">Page 1</a></li>-->
+<!--        </ul>-->
+<!--    </div>-->
+<!--</nav>-->
 <div class="bg"></div>
 <div class="bg bg2"></div>
 <div class="bg bg3"></div>
@@ -27,7 +41,6 @@ jquery/3.1.0/jquery.min.js"></script>
     <center><h3 style="color: red">Việt Nam quyết thắng đại dịch !!!</h3></center>
     </br>
 </div>
-
 <div class="inf">
     <div class="card">
         <div class="box box3">
@@ -55,7 +68,7 @@ jquery/3.1.0/jquery.min.js"></script>
 </div>
 </br></br>
 <center><p id="tongquan">-- General Information --</p></br></center>
-    </br>
+</br>
 <div class="quotes">
     <div class="card">
         <div class="box box1">
@@ -124,7 +137,7 @@ jquery/3.1.0/jquery.min.js"></script>
                 <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Country" title="Country name"> --
             </h5>
             <table id="virus" class="table table-striped table-bordered" style="width:90%">
-                <tr class="">
+                <tr>
                     <th style="color: black; text-align: center">Country</th>
                     <th style="color: steelblue; text-align: center">Infected cases</th>
                     <th style="color: red; text-align: center">Cases die</th>
@@ -135,4 +148,13 @@ jquery/3.1.0/jquery.min.js"></script>
     </div>
 </center>
 </body>
+<script>
+   function myFunction1()
+    {
+        if (confirm("Do you want to change to phone view")) {
+            location.href="Phone-View.html"
+        }
+    }
+</script>
+
 </html>
