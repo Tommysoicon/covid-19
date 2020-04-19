@@ -40,9 +40,9 @@ $(document).ready(function(){
                     VNIcase =value.cases;
                     VNIdea =+ value.deaths;
                     VNIcover =+ value.recovered;
-                    document.getElementById("VNIcase").innerHTML ='+ Infection:  '+ VNIcase;
-                    document.getElementById("VNIdea").innerHTML ='+ Case Die:  '+VNIdea;
-                    document.getElementById("VNIcover").innerHTML ='+ Recovered: '+VNIcover;
+                    document.getElementById("VNIcase").innerHTML ='+ Số ca nhiễm:  '+ VNIcase;
+                    document.getElementById("VNIdea").innerHTML ='+ Số người chết:  '+VNIdea;
+                    document.getElementById("VNIcover").innerHTML ='+ Số người phục hồi: '+VNIcover;
                 }
             });
             $('#virus').append(virus_data);
