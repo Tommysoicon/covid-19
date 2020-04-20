@@ -4,15 +4,51 @@ $(document).ready(function(){
 
     $.getJSON("https://api.covid19api.com/summary", function (corona)
     {
+        var Conflus = '';
+        var Deaflus = '';
+        var Recflus = '';
         var virus_data = '';
         $.each(corona.Countries, function (key, value) {
+            if(value.NewConfirmed > 0){
+                Conflus = '+ '+value.NewConfirmed;
+            }
+            else {
+                Conflus = '';
+            }
+
+            if(value.NewDeaths > 0){
+                Deaflus ='+ '+value.NewDeaths;
+            }
+            else {
+                Deaflus = '';
+            }
+
+            if(value.NewRecovered > 0){
+                Recflus ='+ '+value.NewRecovered;
+            }
+            else{
+                Recflus = '';
+            }
+
+            if(value.NewConfirmed > 100){
+                Conflus = '<span style="color: steelblue">+ '+value.NewConfirmed+'</span>'
+            }
+
+            if(value.NewDeaths > 100){
+                Deaflus = '<span style="color: red">+ '+value.NewDeaths+'</span>'
+            }
+
+            if(value.NewRecovered > 100){
+                Recflus = '<span style="color: green">+ '+value.NewRecovered+'</span>'
+            }
+
             virus_data += '<tr>';
             virus_data += '<td> '+value.Country+' </td>';
-            virus_data += '<td> '+value.NewConfirmed+' </td>';
+            virus_data += '<td> '+Conflus+' </td>';
             virus_data += '<td> '+value.TotalConfirmed+' </td>';
-            virus_data += '<td> '+value.NewDeaths+' </td>';
+            virus_data += '<td> '+Deaflus+' </td>';
             virus_data += '<td> '+value.TotalDeaths+' </td>';
-            virus_data += '<td> '+value.NewRecovered+' </td>';
+            virus_data += '<td> '+Recflus+' </td>';
             virus_data += '<td> '+value.TotalRecovered+' </td>';
 
             //VietNam data
